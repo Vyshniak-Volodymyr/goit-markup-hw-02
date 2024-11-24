@@ -4,6 +4,23 @@ body {
   background-color: #FFFFFF;
 }
 
+/* Логотип */
+
+.webstudio-link {
+  font-size: 18px;            /* Розмір шрифту */
+  line-height: 1.17;          /* Відстань між рядками */
+  letter-spacing: 0.03em;     /* Відступи між літерами */
+  text-transform: uppercase;  /* Текст великими літерами */
+  color: #4d5ae5;           /* Колір тексту */
+  text-decoration: none;      /* Прибирає підкреслення (опційно) */
+}
+
+.logo-span {
+  color: #2e2f42;           /* Специфічний колір тексту для span */
+}
+
+/* Логотип */
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
