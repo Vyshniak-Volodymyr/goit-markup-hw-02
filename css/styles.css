@@ -51,6 +51,28 @@ body {
   color: #404bbf; /* Колір тексту при ховері та фокусі */
 }
 
+/* <address class="contact-address"> */
+
+/* Стиль для address */
+.contact-address {
+  font-style: normal; /* Прибирає курсив */
+}
+
+/* Стиль для посилань */
+.contact-link {
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Міжрядковий інтервал */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Основний колір тексту */
+  text-decoration: none; /* Прибирає підкреслення */
+}
+
+/* Зміна кольору тексту при ховері та фокусі */
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf; /* Колір тексту при наведенні та фокусі */
+}
+
 /* Шрифт Roboto */
 
 .roboto-thin {
