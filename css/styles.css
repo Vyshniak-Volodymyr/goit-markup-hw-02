@@ -201,3 +201,61 @@ body {
 }
 
 /* END Секція номер два */
+
+/* Третя секція */
+
+/* Стилі для секції */
+.team-section {
+  background-color: #F4F4FD; /* Фон секції */
+  padding: 20px; /* Відступи для секції */
+}
+
+/* Стилі для заголовка секції */
+.section-title {
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 1.11; /* Висота рядка */
+  text-align: center; /* Вирівнювання тексту */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  text-transform: capitalize; /* Стиль тексту */
+  color: #2e2f42; /* Колір тексту */
+  margin-bottom: 20px; /* Відступ після заголовка */
+}
+
+/* Стилі для списку */
+.team-list {
+  list-style: none; /* Відсутність маркерів */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Гнучке розташування елементів */
+  gap: 20px; /* Відстань між пунктами */
+  justify-content: center; /* Центрування списку */
+  flex-wrap: wrap; /* Перенесення пунктів на новий рядок */
+}
+
+/* Стилі для пунктів списку */
+.team-item {
+  background-color: #FFFFFF; /* Фон пункту списку */
+  padding: 15px; /* Відступи всередині пункту */
+  text-align: center; /* Центрування тексту */
+  border-radius: 10px; /* Згладжені кути */
+  width: 264px; /* Фіксована ширина */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Тінь */
+}
+
+/* Стилі для заголовка члена команди */
+.team-member-name {
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Висота рядка */
+  color: #2e2f42; /* Колір тексту */
+  margin-top: 10px; /* Відступ зверху */
+}
+
+/* Стилі для ролі члена команди */
+.team-member-role {
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  color: #434455; /* Колір тексту */
+  margin-top: 5px; /* Відступ зверху */
+}
+
