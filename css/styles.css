@@ -140,7 +140,7 @@ body {
 
 /* Стиль для секції */
 .main-section {
-  background-color: #2e2f42; /* Колір фону */
+  background-color: #2e2f42; /* Колір фону секції */
   text-align: center; /* Центрування вмісту */
 }
 
@@ -165,12 +165,15 @@ body {
   color: #ffffff; /* Колір тексту */
   border: none; /* Прибирає рамку */
   cursor: pointer; /* Стиль курсора */
-  transition: background-color 0.3s; /* Плавний перехід кольору */
+  transition: background-color 0.3s ease; /* Плавний перехід кольору */
 }
 
-/* Стиль для кнопки при ховері та фокусі */
-.action-button:hover,
+/* Стиль для кнопки при ховері */
+.action-button:hover {
+  background-color: #404BBF; /* Зміна кольору фону */
+}
+
+/* Стиль для кнопки при фокусі */
 .action-button:focus {
   background-color: #404BBF; /* Зміна кольору фону */
-  color: #ffffff; /* Збереження кольору тексту */
 }
