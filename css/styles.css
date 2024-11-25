@@ -19,8 +19,6 @@ body {
   color: #2e2f42;           /* Специфічний колір тексту для span */
 }
 
-/* Кнопка Order Service / Перший пункт списку / Згідно умови поставленої задачі */
-
 .nav-link {
   font-weight: 500; /* Жирність шрифту */
   font-size: 16px; /* Розмір шрифту */
@@ -35,9 +33,7 @@ body {
   color: #404bbf; /* Колір тексту при ховері та фокусі */
 }
 
-/* <address class="contact-address"> */
-
-/* Стиль для address */
+/* Стиль для address / <address class="contact-address"> */
 .contact-address {
   font-style: normal; /* Прибирає курсив */
 }
@@ -140,3 +136,43 @@ body {
   font-style: normal;
 }
 
+/* Перша секція. Заголовок та кнопка. */
+
+/* Стиль для секції */
+.main-section {
+  background-color: #2e2f42; /* Колір фону */
+  padding: 20px; /* Додатковий відступ для зручності сприйняття */
+  text-align: center; /* Центрування вмісту */
+}
+
+/* Стиль для заголовка */
+.section-title {
+  font-size: 56px; /* Розмір шрифту */
+  line-height: 1.07; /* Міжрядковий інтервал */
+  text-align: center; /* Вирівнювання тексту */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #ffffff; /* Колір тексту */
+  margin-bottom: 20px; /* Відступ під заголовком */
+}
+
+/* Стиль для кнопки */
+.action-button {
+  background-color: #4D5AE5; /* Колір фону кнопки */
+  font-family: "Roboto", sans-serif; /* Сімейство шрифтів */
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Міжрядковий інтервал */
+  letter-spacing: 0.04em; /* Відстань між літерами */
+  color: #ffffff; /* Колір тексту */
+  border: none; /* Прибирає рамку за замовчуванням */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  cursor: pointer; /* Стиль курсора */
+  border-radius: 5px; /* Додає округлення країв кнопки */
+  transition: background-color 0.3s; /* Плавний перехід кольору при ховері та фокусі */
+}
+
+/* Стиль для кнопки при ховері та фокусі */
+.action-button:hover,
+.action-button:focus {
+  background-color: #404BBF; /* Зміна кольору фону */
+}
