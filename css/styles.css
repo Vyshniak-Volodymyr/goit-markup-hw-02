@@ -19,7 +19,7 @@ body {
   color: #2e2f42;           /* Специфічний колір тексту для span */
 }
 
-/* Логотип */
+/* Шрифт Roboto */
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
@@ -92,6 +92,8 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+
+/* Шрифт Raleway */
 
 @font-face {
   font-family: 'Raleway';
