@@ -172,4 +172,5 @@ body {
 .action-button:hover,
 .action-button:focus {
   background-color: #404BBF; /* Зміна кольору фону */
+  color: #ffffff; /* Збереження кольору тексту */
 }
