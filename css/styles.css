@@ -1,151 +1,249 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
-/* Header styles */
-.logo-link {
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
+/* Логотип */
+
+.webstudio-link {
+  font-size: 18px;            /* Розмір шрифту */
+  line-height: 1.17;          /* Відстань між рядками */
+  letter-spacing: 0.03em;     /* Відступи між літерами */
+  text-transform: uppercase;  /* Текст великими літерами */
+  color: #4d5ae5;           /* Колір тексту */
+  text-decoration: none;      /* Прибирає підкреслення (опційно) */
 }
 
-.logo-highlight {
-  color: #2e2f42;
+.logo-span {
+  color: #2e2f42;           /* Специфічний колір тексту для span */
 }
 
 .nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  color: #2e2f42;
-  text-decoration: none;
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Міжрядковий інтервал */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Основний колір тексту */
+  text-decoration: none; /* Прибирає підкреслення */
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Колір тексту при ховері та фокусі */
 }
 
-.contact-info {
+/* Стиль для address / <address class="contact-address"> */
+.contact-address {
+  font-style: normal; /* Прибирає курсив */
+}
+
+/* Стиль для посилань */
+.contact-link {
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Міжрядковий інтервал */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Основний колір тексту */
+  text-decoration: none; /* Прибирає підкреслення */
+}
+
+/* Зміна кольору тексту при ховері та фокусі */
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf; /* Колір тексту при наведенні та фокусі */
+}
+
+/* Шрифт Roboto */
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   font-style: normal;
 }
 
-.contact-link {
-  font-size: 16px;
-  color: #434455;
-  text-decoration: none;
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Section 1 */
-.intro-section {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 40px 0;
-}
-
-.intro-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.primary-button {
-  background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-}
-
-<<<<<<< HEAD
-/* Четверта секція */
-
-/* Загальний стиль для секції */
-.portfolio-section {
-  background-color: #f4f4fd;
-  padding: 40px 20px;
-}
-
-/* Стиль заголовка секції */
-.section-title {
+.roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Шрифт Raleway */
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Перша секція. Заголовок та КНОПКА. */
+
+/* Стиль для секції */
+.main-section {
+  background-color: #2e2f42; /* Колір фону секції */
+  text-align: center; /* Центрування вмісту */
+}
+
+/* Стиль для заголовка */
+.section-title {
+  font-size: 56px; /* Розмір шрифту */
+  line-height: 1.07; /* Міжрядковий інтервал */
+  text-align: center; /* Вирівнювання тексту */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #ffffff; /* Колір тексту */
+  margin-bottom: 20px; /* Відступ під заголовком */
+}
+
+/* Стиль для кнопки */
+.action-button {
+  background-color: #4D5AE5; /* Колір фону кнопки */
+  font-family: "Roboto", sans-serif; /* Сімейство шрифтів */
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Міжрядковий інтервал */
+  letter-spacing: 0.04em; /* Відстань між літерами */
+  color: #ffffff; /* Початковий колір тексту */
+  border: none; /* Прибирає рамку */
+  cursor: pointer; /* Стиль курсора */
+  transition: color 0.3s ease; /* Плавний перехід кольору тексту */
+}
+
+/* Стиль для кнопки при ховері */
+.action-button:hover {
+   background-color: #404BBF /* Зміна кольору тексту */
+  
+}
+
+/* Стиль для кнопки при фокусі */
+.action-button:focus {
+    background-color: #404BBF /* Зміна кольору тексту */
+}
+
+/* Секція номер два */
+
+/* Стилі для заголовка в списку */
+.list-title {
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Відстань між рядками */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Колір тексту */
+  margin-bottom: 10px; /* Відступ під заголовком */
+}
+
+/* Стилі для параграфа в списку */
+.list-paragraph {
+  font-size: 16px; /* Розмір тексту */
+  line-height: 1.5; /* Відстань між рядками */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Колір тексту */
+  margin: 0; /* Забезпечення єдиного стилю відступів */
+}
+
+/* END Секція номер два */
+
+/* Третя секція */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 20px;
 }
 
-/* Список елементів */
-.portfolio-list {
+.team-list {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 20px;
 }
 
-/* Стиль для елементів списку */
-.portfolio-item {
-  text-align: center;
+.team-item {
+  background-color: #ffffff;
+  margin-bottom: 16px; /* Відступ між елементами списку */
 }
 
-/* Заголовок елементів */
-.portfolio-title {
+.team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 10px;
 }
 
-/* Опис елементів */
-.portfolio-description {
+.team-role {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 5px;
 }
 
-/* END. Четверта секція */
-=======
-.primary-button:hover,
-.primary-button:focus {
-  background-color: #404bbf;
-}
-
-/* Footer */
-.site-footer {
-  background-color: #2e2f42;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.footer-text {
-  font-size: 16px;
-}
->>>>>>> 5a47b8e334c4e1dc7ec84ad000a5ba7f7f3f6131
