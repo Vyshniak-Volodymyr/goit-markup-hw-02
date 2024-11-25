@@ -162,18 +162,18 @@ body {
   font-size: 16px; /* Розмір шрифту */
   line-height: 1.5; /* Міжрядковий інтервал */
   letter-spacing: 0.04em; /* Відстань між літерами */
-  color: #ffffff; /* Колір тексту */
+  color: #ffffff; /* Початковий колір тексту */
   border: none; /* Прибирає рамку */
   cursor: pointer; /* Стиль курсора */
-  transition: background-color 0.3s ease; /* Плавний перехід кольору */
+  transition: color 0.3s ease; /* Плавний перехід кольору тексту */
 }
 
 /* Стиль для кнопки при ховері */
 .action-button:hover {
-  background-color: #404BBF; /* Зміна кольору фону */
+  color: #404BBF; /* Зміна кольору тексту */
 }
 
 /* Стиль для кнопки при фокусі */
 .action-button:focus {
-  background-color: #404BBF; /* Зміна кольору фону */
+  color: #404BBF; /* Зміна кольору тексту */
 }
