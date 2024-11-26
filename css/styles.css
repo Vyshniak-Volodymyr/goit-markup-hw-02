@@ -16,8 +16,17 @@ body {
 }
 
 .logo-span {
+  color: #f4f4fd;
+}
+
+/* 
+Логотип 
+.logo-span {
   color: #2e2f42;
 }
+26.11.2024
+20 30  
+*/
 
 .nav-link {
   font-weight: 500;
