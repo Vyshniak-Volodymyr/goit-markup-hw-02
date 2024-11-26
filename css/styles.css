@@ -213,3 +213,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--footer-text-color, #f4f4fd);
 }
+
+.logo-span-footer {
+  color: #f4f4fd;
+}
